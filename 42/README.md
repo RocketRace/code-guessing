@@ -1,6 +1,6 @@
 # [Round 42](https://cg.esolangs.gay/42/): Implement 2048
 
-[*Submitted entry*](https://cg.esolangs.gay/42/#)
+[*Submitted entry*](https://cg.esolangs.gay/42/#7)
 
 *Relevant files:* `src/bin/512.rs`, `demo.mp4`
 
