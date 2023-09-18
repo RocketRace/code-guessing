@@ -4,4 +4,4 @@
 
 *Relevant files:* `spiro.m`
 
-This entry is written in Matlab, everyone's favorite programming language.
+This entry is written in Matlab and APL, two languages which are best friends.
