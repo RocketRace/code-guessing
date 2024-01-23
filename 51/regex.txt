@@ -1,0 +1,21 @@
+CHAR = crlf | Control | precore* core postcore* 
+crlf = CR LF | CR | LF
+CR = \p{GCB=CR}
+LF = \p{GCB=LF}
+Control = \p{GCB=Control}
+precore = \p{GCB=Prepend}
+core = hangul-syllable | RI-Sequence | xpicto-sequence | conjunctCluster | [^Control CR LF]
+hangul-syllable = L* (V+ | LV V* | LVT) T* | L+ | T+
+L = \p{GCB=L}
+V = \p{GCB=V}
+LV = \p{GCB=LV}
+LVT = \p{GCB=LVT}
+T = \p{GCB=T}
+RI-sequence = RI RI
+RI = \p{GCB=RI}
+xpicto-sequence = \p{Extended_Pictographic} (Extend* ZWJ \p{Extended_Pictographic})*
+Extend = \p{GCB=Extend}
+ZWJ = \p{GCB=ZWJ}
+conjunctCluster = \p{InCB=Consonant} ([\p{InCB=Extend} \p{InCB=Linker}]* \p{InCB=Linker} [\p{InCB=Extend} \p{InCB=Linker}]* \p{InCB=Consonant})+
+postcore = [Extend ZWJ SpacingMark]
+SpacingMark = \p{GCB=SpacingMark}

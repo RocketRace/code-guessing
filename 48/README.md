@@ -1,6 +1,6 @@
 # [Round 48](https://cg.esolangs.gay/48/): Find the assassinations foretold in Moby-Dick
 
-[_Submitted entry_](https://cg.esolangs.gay/48/#)
+[_Submitted entry_](https://cg.esolangs.gay/48/#9)
 
 _Relevant files:_ `entry.py`
 

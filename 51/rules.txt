@@ -1,0 +1,23 @@
+one character is defined as the first rule that matches
+
+$CR $LF;
+
+$L ($L | $V | $LV | $LVT);
+($LV | $V) ($V | $T);
+($LVT | $T) $T;
+
+[^$Control $CR $LF] ($Extend | $ZWJ);
+
+[^$Control $CR $LF] $SpacingMark;
+
+$Prepend [^$Control $CR $LF];
+
+$LinkingConsonant $ExtCccZwj* $Virama $ExtCccZwj* $LinkingConsonant;
+
+$Extended_Pict $Extend* $ZWJ $Extended_Pict;
+
+^$Prepend* $Regional_Indicator $Regional_Indicator / $Regional_Indicator;
+^$Prepend* $Regional_Indicator $Regional_Indicator;
+
+.;
+
