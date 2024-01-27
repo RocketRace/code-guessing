@@ -1,0 +1,118 @@
+ Let's go on a journey.
+
+ 82,712 lines- wait, only 4,429 lines long!
+ 
+ But what's it all for?
+ 
+ Why need 4,429 lines?
+ 
+ Well, let me tell you.
+ 
+ So I use this esolang
+ named swift.
+ 
+ In swift, I can find
+ the length of a string
+ very easily.
+ 
+ (Whoops, mind the ASCII!) 
+ 
+ But as I was saying.
+ 
+ Swift.
+ 
+ In swift, finding the
+ length of a string is
+ as easy as writing
+ `string.count`.
+ 
+ Isn't that nice?
+ 
+ So I thought naively,
+ "I'm sure it'll be as
+ easy in Python, too!"
+ 
+ But alas!
+ 
+ It turns out that
+ Python doesn't have
+ any builtin way to
+ get a string length?!
+ 
+ Like, seriously!
+ 
+ I can approximate the
+ result with `len(string)`,
+ but that's not quite right!
+ 
+ `len("🇦🇶")` gives
+ the result of 2,
+ for example, but
+ the answer is 1!
+ 
+ That's really weird.
+ 
+ So I thought,
+ "Well if it's
+ not here in the 
+ standard library,
+ then I guess I'll
+ have to write it
+ myself."
+ 
+ And so I did!
+ 
+ That's what we've
+ been scrolling along
+ this whole time.
+ 
+ This program finds
+ the length of a string.
+ 
+ It's a little verbose,
+ but I think the code
+ itself is pretty clear.
+ 
+ What do you think?
+ 
+ If you're a fan of it,
+ comment below with
+ "BIG fan!! <3"
+ 
+ If you for some reason
+ are not a fan, comment
+ with "not a fan... :/"
+ 
+ But of course, you
+ wouldn't write that.
+ 
+ So it's unnecessary
+ for me to say.
+ 
+ Nice weather outside,
+ eh?
+ 
+ Have you gone outside
+ recently? 
+ 
+ I went for a barbie
+ the other day.
+ 
+ Fantastic.
+ 
+ Also, and this just
+ popped into my head,
+ have you heard of
+ this game called
+ "Undertale"?
+ 
+ It's pretty cool.
+ 
+ You should play it!
+ 
+ I think my favorite
+ character is, uh,
+ 
+ What's-his-name...
+ 
+ Sans undertale!
