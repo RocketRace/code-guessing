@@ -17,3 +17,4 @@ My favorites entries (in chronological order) are:
 - #37 (Poorly computing digital roots using machine learning)
 - #39 (More code art, this time in Haskell)
 - #42 (A game of 2048 on a tiny terminal screen)
+- #51 (A regular expression that matches the bytes of extended grapheme clusters)
