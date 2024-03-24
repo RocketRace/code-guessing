@@ -1,0 +1,70 @@
+-------
+
+As the dust settles, you find yourself in a dark room. The air is hazy and dusty, so you can't quite make out your surroundings. You're still disoriented from tumbling down the spiral stairs, and can barely tell left from right.
+
+As you try to gather your senses, hear something spooky. Are those ghosts? Oh no. Maybe you shouldn't have drank the pumpkin juice...
+
+"I think we fell into the storage closet," your elf companion remarks suddenly, interrupting your thoughts. She tugs on your chain slightly.
+
+"I used to go here during my lunch breaks to eat donuts in peace. It's pretty easy to get lost, though, so I always brought a map with me."
+
+She takes a curious look around.
+
+"I wonder if I still have my map, hmm..."
+
+With some shuffling, she sits down and takes off her left boot. The iron chain shackling you two together clinks a little as she pulls off her festive woolen sock. You instinctively scrunch up your nose at the smell wafting from her *bare sweaty foot*. 
+
+"Aha! I knew it was here somewhere!" she exclaims, revealing a folded up, slightly moist piece of paper. "I never lose my maps," she gloats.
+
+You unfold the giant map on the ground. From inspection, it seems that this place is full of diagonal mirrors, intersections, and strange empty spaces.
+
+"Those are ghost spaces. You probably don't want to walk into one," she helpfully points out. "They're not dangerous or anything. But it's pretty hard to leave them."
+
+You figure that you'll need to find a way through here to the exit without going through a ghost tile.
+
+"They are very talkative and can chatter on for hours," she continues. "But they can be a bit... gloomy. I don't really like their dark humor." You can't see so well in the darkness, but her outfit is a gleeful mixture of the seven primary colors.
+
+You check your pocket and notice that you still have your flashlight with you. You pull it out and flick the switch on and off. The flashlight is battered from the game you played with the rock gnomes, but it still functions. However, its light flickers noticeably. You fear the battery will run out any second.
+
+You inspect the map closer, this time with the help of light. You can make out three different types of squares:
+
+"+" is an *intersection square*. It lets you and your flashlight pass through along the horizontal and vertical axes. Strangely, it won't let you turn around in angles; you can only traverse between east & west or between north & south independently.
+
+"\" and "/" are *mirror squares*. Any light that enters will be reflected across the diagonal. The mirrors also reach up to the ceiling, which means you can only walk the same path as the light. 
+
+" " is a ghost space. "Isn't that supposed to be a "."?" you wonder out loud. "No," your friend replies confidently.Whenever your beam of light enters a ghost space, it gets eaten up and disappears. Furthermore, if you step into this
+square, you'll be forced to listen to the ghosts.
+
+Here's an example of what a map looks like:
+
+"MAP HERE"
+
+To start off, you're going to perform a sanity check and see whether it's even possible to reach the exit from whereever you are. To do this, count the *number of paths* that go through the entire map from east to west, or from north to south.
+
+In the example above, there's *two* paths through the map:
+
+"MAP WITH PATHS HIGHLIGHTED"
+
+Your task is to count the paths that pass through the whole map, for each of the maps in your input. Your answer is the *sum* of these counts.
+
+-----------
+
+Reassured in your chances of finding an exit, you shine your flashlight forward and start to follow its light. You turn around at mirrors, squeeze through tight intersections, and make sure to not avoid any ghosts.
+
+However, as you keep treading, you start to grow worried. Something's not quite right. It's taking oddly long to reach the exit...
+
+"Wait a second, haven't we seen that same mirror before?" your friend chirps up. "We might be going in circles."
+
+You take a second look at the map. You notice that, indeed, some paths inside the map *loop around*!
+
+The flashlight is on its last legs, so you want to avoid the loops in the map as you traverse.
+
+To do this, determine the *complexity* of the map. The complexity of a map is the number of paths that go through it, multiplied by one greater than the number of loops inside the map.
+
+In the previous example, there's *two loops*:
+
+MAP WITH LOOPS HIGHLIGHTED
+
+Therefore, it has a complexity of 2 * 3 = 6.
+
+For your task, compute the *complexity* of each map. Your answer is then the *sum* of these complexities.
