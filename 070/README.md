@@ -1,6 +1,6 @@
 # [Round 70](https://codeguessing.gay/70/): beat this game
 
-[*Submitted entry*](https://codeguessing.gay/70/#)
+[*Submitted entry*](https://codeguessing.gay/70/#19)
 
 *Relevant files:* `bot.py`
 
