@@ -1,4 +1,4 @@
-# [The Esolangs Code Guessing Competition](https://cg.esolangs.gay)
+# [Code Guessing Competition](https://codeguessing.gay)
 
 This repository contains all my entries to Code Guessing. I have added my commentary inside each entry's directory.
 I think these entries are cheeky, imaginative, and cursed, but it's up to the reader to decide.
